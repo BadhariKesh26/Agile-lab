@@ -9,7 +9,7 @@ def get_grade(mark):
     elif mark >= 60:
         return 'D'
     else:
-        return 'F' ##jjjjjjjjj
+        return 'F'
 
 
 def get_valid_mark(subject_name):
