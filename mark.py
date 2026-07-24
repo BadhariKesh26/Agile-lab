@@ -6,7 +6,7 @@ def calculate_grade(marks):
     elif marks >= 60:
         return "C"
     else:
-        return "F"
+        return "Fail"
 if __name__ == "__main__":
     marks = 82
     print("Marks:", marks)
