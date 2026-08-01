@@ -7,13 +7,9 @@ def calculate_grade(marks):
         return "C"
     else:
         return "Fail"
-def average(marks_list):
-    return sum(marks_list) / len(marks_list)
 if __name__ == "__main__":
-    marks = [80, 85, 81]
-    avg = average(marks)
+    marks = 82
     print("Marks:", marks)
-    print("Average:", avg)
-    print("Grade:", calculate_grade(avg))
+    print("Grade:", calculate_grade(marks))
 
     
